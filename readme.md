@@ -4,8 +4,10 @@ Description!
 **By Van**
 
 # Installation and Setup
-- Create am application directory
-- Change to that directory
+- Create an application directory and clone the repository into that directory
+  - mkdir apitest
+  - cd apitest
+  - git clone git@github.com:onedeadgod/apitesting.git .
 - Create a virtual environment
   - python3 -m venv venv
 - Activate the environment
