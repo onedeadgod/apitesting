@@ -1,8 +1,6 @@
 # Python REST API Example
 Description!
 
-**By Van**
-
 # Installation and Setup
 - Create an application directory and clone the repository into that directory
   - mkdir apitest
