@@ -16,3 +16,15 @@ This is a pretty crude exmaple of a Python CRUD REST API. I used the Flask frame
   - python3 main.py
 
 # API Usage
+Key: /path/params [json params] {request type}
+
+- Create a new widget
+  - /widget [name, part_count] {POST}
+- Update a widget 
+  - /widget [id, name, part_count] {PUT}
+- Delete a widget
+  - /widget [id] {DELETE}
+- Get a widget 
+  - /widget/<id> {GET}
+- Get all widgets
+  - /widgets {GET}
