@@ -22,11 +22,11 @@ def update_widget(id, name, part_count, update_date):
     return True
 
 
-def delete_widget(widget_id):
+def delete_widget(id):
     db = get_db()
     cursor = db.cursor()
     statement = "DELETE FROM widgets WHERE id = ?"
-    cursor.execute(statement, [widget_id])
+    cursor.execute(statement, [id])
     db.commit()
     return True
 
