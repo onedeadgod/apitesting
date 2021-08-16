@@ -23,6 +23,7 @@ Some things to note:
 The server should now be running at http://your_ip_address:8000
 
 # API Usage
+Parameters and return values are in JSON format.
 Key: /path/params [json params] {request type}
 
 - Create a new widget
