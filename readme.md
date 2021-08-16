@@ -17,6 +17,8 @@ Some things to note:
 - Run the application
   - python3 main.py
 
+The server should now be running at http://your_ip_address:8000
+
 # API Usage
 Key: /path/params [json params] {request type}
 
