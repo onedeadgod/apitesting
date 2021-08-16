@@ -5,6 +5,7 @@ documented afterwards.
 
 Some things to note:
  - PEP8 Compliant
+ - Passes Flake8 standards
 
 # Installation and Setup
 - Clone the repository and change into the created project directory
