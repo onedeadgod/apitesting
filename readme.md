@@ -1,5 +1,5 @@
 # Python REST API Example
-Description!
+This is a pretty crude exmaple of a Python CRUD REST API. I used the Flask framework, SQLite and Python 3.9.5. Installation and setup is outlined below. The API is documented afterwards.
 
 # Installation and Setup
 - Create an application directory and clone the repository into that directory
@@ -14,3 +14,5 @@ Description!
   - pip install Flask
 - Run the application
   - python3 main.py
+
+# API Usage
