@@ -21,7 +21,7 @@ def insert_widget():
     widget_details = request.get_json()
     name = widget_details["name"]
     part_count = widget_details["part_count"]
-    created_date = update_date = datetime.now()
+    created_date = datetime.now()
     result = widgeter.insert_widget(name, part_count, created_date)
     return jsonify(result)
 
@@ -57,11 +57,14 @@ Enable CORS. Disable it if you don't need CORS
 @app.after_request
 def after_request(response):
     response.headers[
-        "Access-Control-Allow-Origin"] = "*"  # <- You can change "*" for a domain for example "http://localhost"
+        "Access-Control-Allow-Origin"] = "*"
     response.headers["Access-Control-Allow-Credentials"] = "true"
-    response.headers["Access-Control-Allow-Methods"] = "POST, GET, OPTIONS, PUT, DELETE"
+    response.headers["Access-Control-Allow-Methods"] = "POST, GET, OPTIONS, " \
+                                                       "PUT, DELETE"
     response.headers[
-        "Access-Control-Allow-Headers"] = "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization"
+        "Access-Control-Allow-Headers"] = "Accept, Content-Type, " \
+                                          "Content-Length, Accept-Encoding, " \
+                                          "X-CSRF-Token, Authorization "
     return response
 
 

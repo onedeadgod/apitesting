@@ -12,7 +12,8 @@ def create_tables():
     # SELECT name FROM sqlite_master WHERE type='table' AND name='table_name';
     db = get_db()
     cursor = db.cursor()
-    statement = "SELECT name FROM sqlite_master WHERE type='table' AND name='widgets'"
+    statement = "SELECT name FROM sqlite_master WHERE type='table' AND " \
+                "name='widgets'"
     cursor.execute(statement)
     check = cursor.fetchone()
     if check[0] == 'widgets':
