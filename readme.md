@@ -28,3 +28,8 @@ Key: /path/params [json params] {request type}
   - /widget/<id> {GET}
 - Get all widgets
   - /widgets {GET}
+
+# Parameter Specifications
+  - name: string 64 characters max
+  - part_count: integer
+  - id: integer
