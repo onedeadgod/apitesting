@@ -31,7 +31,7 @@ Key: /path/params [json params] {request type}
 - Update a widget 
   - /widget [id, name, part_count] {PUT}
 - Delete a widget
-  - /widget [id] {DELETE}
+  - /widget/<id> {DELETE}
 - Get a widget 
   - /widget/<id> {GET}
 - Get all widgets
