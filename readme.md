@@ -5,10 +5,9 @@ Some things to note:
  - PEP8 Compliant
 
 # Installation and Setup
-- Create an application directory and clone the repository into that directory
-  - mkdir apitest
-  - cd apitest
-  - git clone git@github.com:onedeadgod/apitesting.git .
+- Clone the repository and change into the created project directory
+  - git clone git@github.com:onedeadgod/apitesting.git
+  - cd apitesting
 - Create a virtual environment
   - python3 -m venv venv
 - Activate the environment
